@@ -37,45 +37,51 @@
                 color="red" static-body visible="true">
             </a-cylinder>
 
+            <a-box color="#7E7E7E" id="back-wall" position="0 0 -20"  depth="1" height="10" width="20" opacity="1" ></a-box>
+            <a-box color="black" id="top-wall" position="0 5 -15"  depth="5" height="1" width="20" opacity="1" ></a-box>
+        
+            <a-box color="black" id="left-wall" position="-10 0 -20"  depth="5" height="10" width="1" opacity="1" ></a-box>
+            <a-box color="black" id="right-wall" position="10 0 -20"  depth="5" height="10" width="1" opacity="1" ></a-box>
+        
 
         </a-entity>
 
         <!--BP-->
         <a-entity position="0 0 -10">
 
-            <a-entity id="pin1" gltf-model="#pin" position="0 0 -2" scale="4 4 4">
+            <a-entity id="pin1" gltf-model="#pin" position="0 0 -2" scale="4 4 4" dynamic-body="mass:0.5">
             </a-entity>
 
-            <a-entity id="pin2" gltf-model="#pin" position="-0.5 0 -3" scale="4 4 4">
+            <a-entity id="pin2" gltf-model="#pin" position="-0.5 0 -3" scale="4 4 4" dynamic-body="mass:0.5">
             </a-entity>
 
-            <a-entity id="pin3" gltf-model="#pin" position="-3 0 -3" scale="4 4 4">
-            </a-entity>
-
-
-            <a-entity id="pin4" gltf-model="#pin" position="-2 0 -2" scale="4 4 4">
+            <a-entity id="pin3" gltf-model="#pin" position="-3 0 -3" scale="4 4 4" dynamic-body="mass:0.5">
             </a-entity>
 
 
-            <a-entity id="pin5" gltf-model="#pin" position="-1 0 -1" scale="4 4 4">
-            </a-entity>
-
-            <a-entity id="pin6" gltf-model="#pin" position="0 0 0" scale="4 4 4">
-            </a-entity>
-
-            <a-entity id="pin7" gltf-model="#pin" position="1 0 -1" scale="4 4 4">
+            <a-entity id="pin4" gltf-model="#pin" position="-2 0 -2" scale="4 4 4" dynamic-body="mass:0.5">
             </a-entity>
 
 
-            <a-entity id="pin8" gltf-model="#pin" position="2 0 -2" scale="4 4 4">
+            <a-entity id="pin5" gltf-model="#pin" position="-1 0 -1" scale="4 4 4" dynamic-body="mass:0.5">
+            </a-entity>
+
+            <a-entity id="pin6" gltf-model="#pin" position="0 0 0" scale="4 4 4" dynamic-body="mass:0.5">
+            </a-entity>
+
+            <a-entity id="pin7" gltf-model="#pin" position="1 0 -1" scale="4 4 4" dynamic-body="mass:0.5">
             </a-entity>
 
 
-            <a-entity id="pin9" gltf-model="#pin" position="3 0 -3" scale="4 4 4">
+            <a-entity id="pin8" gltf-model="#pin" position="2 0 -2" scale="4 4 4" dynamic-body="mass:0.5">
             </a-entity>
 
 
-            <a-entity id="pin10" gltf-model="#pin" position="0.5 0 -3" scale="4 4 4">
+            <a-entity id="pin9" gltf-model="#pin" position="3 0 -3" scale="4 4 4" dynamic-body="mass:0.5">
+            </a-entity>
+
+
+            <a-entity id="pin10" gltf-model="#pin" position="0.5 0 -3" scale="4 4 4" dynamic-body="mass:0.5">
             </a-entity>
 
 
